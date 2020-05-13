@@ -10,8 +10,7 @@ document.write("<br>");
 let rowNum = 1
 while (rowNum <= 10) {
     document.write('<span class="cell">' + rowNum + '</span>')
-    document.write('<br>')
-    rowNum++
+    
 
     let columnNum = 1
     while (columnNum <=10) {

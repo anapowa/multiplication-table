@@ -4,5 +4,8 @@
     text-align: right;
 }
 .header {
-    background: lightblue;
+    background: paleturquoise;
+}
+.rowNum {
+    background: paleturquoise;
 }
