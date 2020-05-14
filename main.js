@@ -1,18 +1,18 @@
 // output the header row
 document.write('<span class="cell header">&times;</span>');
-let i = 1;
+let i = 0;
 while (i <= 10) {
     document.write('<span class="cell header">' + i + "</span>");
     i++;
 }
 document.write("<br>");
 
-let rowNum = 1
+let rowNum = 0
 while (rowNum <= 10) {
-    document.write('<span class="cell">' + rowNum + '</span>')
+    document.write('<span class="cell header">' + rowNum + '</span>')
     
 
-    let columnNum = 1
+    let columnNum = 0
     while (columnNum <=10) {
         let result = rowNum * columnNum
         document.write('<span class="cell">' + result + '</span>')
